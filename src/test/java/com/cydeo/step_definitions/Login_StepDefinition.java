@@ -26,7 +26,8 @@ public class Login_StepDefinition {
         System.out.println("User enters student username");
     }
 
-    @And("user enters student password")
+    @And("user enters student password")//this is key must match with
+    //login.feature:And user enters student password
     public void userEntersStudentPassword() {
         System.out.println("User enters student password");
     }
