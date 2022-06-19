@@ -9,7 +9,7 @@ Feature: Library app login feature
   #Bavkground is like @BeforeMethod, it runs the given before each scenario
   Given user is on the library login page
   #wip=work in progress
-  @librarian @employee @wip
+  @librarian @employee
   Scenario: Login as librarian
     When user enters librarian username
     And user enters librarian password
