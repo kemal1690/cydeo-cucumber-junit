@@ -32,3 +32,13 @@ Feature: Wikipedia search functionality and verification
       | Chuck Norris      | Chuck Norris      | Chuck Norris       |
       | Lady Gaga         | Lady Gaga         | Lady Gaga          |
 
+    @scientists
+    Examples:
+      | searchValue  | expectedTitle | expectedMainHeader |
+      | Marie Curie  |    | Marie Curie        |
+      | Lady Gaga    | Lady Gaga     | Lady Gaga          |
+      | Kate Winslet | Kate Winslet  | Kate Winslet       |
+
+      #to beautify the pipes above
+      #mac: command + option + L
+      #windows: control + alt + L
