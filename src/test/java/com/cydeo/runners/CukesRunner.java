@@ -11,7 +11,8 @@ import org.junit.runner.RunWith;
                 //"pretty", -->this provides extra info in the console
                 "html:target/cucumber-report.html",
                 "rerun:target/rerun.txt",
-                "me.jvt.cucumber.report.PrettyReports:target/cucumber"
+                "me.jvt.cucumber.report.PrettyReports:target/cucumber",
+                "json:target/cucumber.json"
 
         },
         features = "src/test/resources/features",
